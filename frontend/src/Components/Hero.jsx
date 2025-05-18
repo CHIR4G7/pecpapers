@@ -27,7 +27,7 @@ const Hero = () => {
                     <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
                         <motion.img 
                             whileHover={{ scale: 1.1 }}
-                            src="/index.png" 
+                            src="/image.png" 
                             alt="PEC Logo" 
                             className="w-32 h-32 rounded-full shadow-lg"
                         />
@@ -44,9 +44,9 @@ const Hero = () => {
                             Hello Pecobians! 👋
                         </Typography>
                         <Typography variant="body1" className="leading-relaxed">
-                            We've created this platform to simplify your exam preparation journey. 
-                            No more last-minute scrambles for previous year papers - everything you 
-                            need is right here! 📚
+                            This is an attempt to make the quest for finding previous years question papers during exam days a bit easier.🫰🏻
+
+To make this a useful resource for yourself and upcoming PECOBIANS please contribute to the cause.♥️ 📚
                         </Typography>
                     </div>
 
@@ -55,14 +55,14 @@ const Hero = () => {
                             <Button 
                                 variant="contained" 
                                 onClick={handleClickOpen}
-                                className="bg-white text-purple-600 hover:bg-purple-100 px-8 py-3 rounded-full font-bold"
+                                className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 rounded-full font-bold"
                             >
                                 Share a Paper 📤
                             </Button>
                         </motion.div>
                         <motion.div whileHover={{ scale: 1.05 }}>
                             <Button 
-                                variant="outlined" 
+                                variant="contained" 
                                 onClick={handleFindPaper}
                                 className="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-3 rounded-full font-bold"
                             >
@@ -79,7 +79,7 @@ const Hero = () => {
                     className="mt-16"
                 >
                     <Typography variant="h4" className="text-center font-bold mb-8">
-                        Special Thanks To Our Contributors 🌟
+                        Special Thanks To Our OGs 🌟
                     </Typography>
                     <div className="grid md:grid-cols-2 gap-8">
                         <motion.div 

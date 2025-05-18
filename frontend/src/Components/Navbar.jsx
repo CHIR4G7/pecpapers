@@ -12,7 +12,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
-import logo from '../assets/image.png'
+import logo from '../assets/image.png';
 import { UserButton } from '@clerk/clerk-react';
 import { useNavigate } from 'react-router-dom';
 
